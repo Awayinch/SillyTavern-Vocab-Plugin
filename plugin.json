@@ -1,0 +1,21 @@
+{
+    "id": "vocab-plugin",
+    "name": "生词本插件",
+    "version": "1.4",
+    "description": "GitHub部署版生词本插件",
+    "author": "YourName",
+    "inject": {
+        "scripts": [
+            "https://raw.githubusercontent.com/[你的用户名]/[仓库名]/main/script.js"
+        ]
+    },
+    "settings": [
+        {
+            "id": "autoClear",
+            "name": "自动清除",
+            "description": "关闭时清空生词本",
+            "type": "checkbox",
+            "default": true
+        }
+    ]
+}
